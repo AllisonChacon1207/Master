@@ -1,0 +1,17 @@
+
+package hn.paisallison.uth.hn;
+
+public class España extends Pais{
+
+    @Override
+    String getPresidente() {
+        return "Juan Gomez";
+    }
+
+    @Override
+    String getPais() {
+        return "España";
+    }
+
+   
+}

@@ -1,0 +1,13 @@
+
+package hn.paisallison.uth.hn;
+
+public abstract class Pais {
+    protected String presidente;
+    protected String pais;
+
+    abstract String getPresidente();
+    abstract String getPais();
+    
+    
+    
+}

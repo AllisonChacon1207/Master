@@ -1,0 +1,26 @@
+package hn.paisallison.uth.hn;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        Honduras hn = new Honduras();
+        Nicaragua nr = new Nicaragua();
+        España es = new España();
+
+        //mostrar el metodo q definimos en la super clase 
+        System.out.println("Nombre del pais: "+hn.getPais());
+        System.out.println("Nombre del Presidente: "+hn.getPresidente());
+        System.out.println(" ");
+        
+        System.out.println("Nombre del pais: "+nr.getPais());
+        System.out.println("Nombre del Presidente: "+nr.getPresidente());
+        System.out.println(" ");
+        
+        System.out.println("Nombre del pais: "+es.getPais());
+        System.out.println("Nombre del Presidente: "+es.getPresidente());
+        System.out.println(" ");
+    
+    }
+
+}
